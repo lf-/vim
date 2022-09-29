@@ -34,7 +34,7 @@
 
 " quit when a syntax file was already loaded
 if exists("b:current_syntax")
-  finish
+	finish
 endif
 
 " this file uses line continuation
@@ -77,14 +77,14 @@ syn keyword cabalStatement contained containedin=cabalStatementRegion
 	\ default-language
 	\ default-extensions
 	\ author
-        \ autogen-modules
-        \ asm-sources
-        \ asm-options
+	\ autogen-modules
+	\ asm-sources
+	\ asm-options
 	\ branch
 	\ bug-reports
 	\ build-depends
 	\ build-tools
-        \ build-tools-depends
+	\ build-tools-depends
 	\ build-type
 	\ buildable
 	\ c-sources
@@ -92,24 +92,24 @@ syn keyword cabalStatement contained containedin=cabalStatementRegion
 	\ category
 	\ cc-options
 	\ copyright
-        \ cmm-sources
-        \ cmm-options
+	\ cmm-sources
+	\ cmm-options
 	\ cpp-options
-        \ cxx-sources
+	\ cxx-sources
 	\ data-dir
 	\ data-files
 	\ default
-        \ default-extensions
+	\ default-extensions
 	\ description
 	\ executable
 	\ exposed-modules
 	\ exposed
 	\ extensions
-        \ extra-bundled-libraries
+	\ extra-bundled-libraries
 	\ extra-doc-files
 	\ extra-dynamic-library-flavours
-        \ extra-framework-dirs
-        \ extra-ghci-libraries
+	\ extra-framework-dirs
+	\ extra-ghci-libraries
 	\ extra-lib-dirs
 	\ extra-libraries
 	\ extra-library-flavours
@@ -120,18 +120,18 @@ syn keyword cabalStatement contained containedin=cabalStatementRegion
 	\ ghc-options
 	\ ghc-prof-options
 	\ ghc-shared-options
-        \ ghcjs-options
-        \ ghcjs-prof-options
-        \ ghcjs-shared-options
+	\ ghcjs-options
+	\ ghcjs-prof-options
+	\ ghcjs-shared-options
 	\ homepage
-        \ hs-source-dir
+	\ hs-source-dir
 	\ hs-source-dirs
 	\ hugs-options
 	\ import
 	\ include-dirs
 	\ includes
 	\ install-includes
-        \ js-sources
+	\ js-sources
 	\ ld-options
 	\ license
 	\ license-file
@@ -139,13 +139,13 @@ syn keyword cabalStatement contained containedin=cabalStatementRegion
 	\ main-is
 	\ maintainer
 	\ manual
-        \ mixins
+	\ mixins
 	\ module
 	\ name
 	\ nhc98-options
 	\ other-extensions
-        \ other-language
-        \ other-languages
+	\ other-language
+	\ other-languages
 	\ other-modules
 	\ package-url
 	\ pkgconfig-depends
